@@ -9,7 +9,7 @@ import {Env} from '../models/env';
 })
 export class AuthenticationService {
 
-  constructor(private http: HttpClient, private cookie: CookieService) { }
+  constructor(private http: HttpClient) { }
 
   private url = Env.url;
 
